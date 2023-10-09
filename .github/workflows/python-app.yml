@@ -3,14 +3,7 @@
 
 name: Python_application
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+on: [push]
 
 jobs:
   
